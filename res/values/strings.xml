@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">RottenTomatos2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Search Rotten Tomatoes</string>
+    <string name="searchText">Enter a movie to search</string>
+    <string name="button_search">Search</string>
+    <string name="title_activity_search_result">Search Results</string>
+    <string name="movieTitleText">movieTitleText</string>
+    <string name="movieThumbDesc">Movie Thumbnail Description</string>
+    <string name="movieYearText">movieYearText</string>
+    <string name="movieRatingText">movieRatingText</string>
+
+</resources>

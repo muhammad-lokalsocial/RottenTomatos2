@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:gravity="left|center"
+        android:padding="3dip" >
+
+        <ImageView
+            android:id="@+id/movieThumb"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/movieThumbDesc"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/movieTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="@string/movieTitleText"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/movieYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/movieTitle"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="@string/movieYearText"
+        android:textColor="#666666"
+        android:textSize="8dp" />
+
+    <TextView
+        android:id="@+id/movieRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/movieYear"
+        android:layout_below="@+id/movieYear"
+        android:text="@string/movieRatingText"
+        android:textColor="#666666"
+        android:textSize="8dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/movieThumbDesc"
+        android:src="@drawable/ic_next" />
+
+</RelativeLayout>
