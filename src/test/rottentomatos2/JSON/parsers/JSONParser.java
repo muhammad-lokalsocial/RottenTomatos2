@@ -1,4 +1,4 @@
-package test.rottentomatos.JSON.parsers;
+package test.rottentomatos2.JSON.parsers;
 
 import java.io.BufferedReader;
 import java.io.IOException;

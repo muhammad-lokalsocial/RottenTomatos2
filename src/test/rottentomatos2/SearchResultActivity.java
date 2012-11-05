@@ -3,7 +3,7 @@ package test.rottentomatos2;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import test.rottentomatos.JSON.parsers.JSONParser;
+import test.rottentomatos2.JSON.parsers.JSONParser;
 import test.rottentomatos2.adapters.MovieAdapter;
 import test.rottentomatos2.classes.Movie;
 import android.app.ListActivity;
