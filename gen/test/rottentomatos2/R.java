@@ -10,45 +10,62 @@ package test.rottentomatos2;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int Black=0x7f040001;
+        public static final int DarkGrey=0x7f040002;
+        public static final int Grey=0x7f040000;
+    }
+    public static final class dimen {
+        public static final int Large=0x7f050000;
+    }
     public static final class drawable {
         public static final int ic_action_search=0x7f020000;
         public static final int ic_launcher=0x7f020001;
         public static final int ic_next=0x7f020002;
     }
     public static final class id {
-        public static final int ListViewId=0x7f070001;
-        public static final int list_view=0x7f070002;
-        public static final int menu_settings=0x7f070008;
-        public static final int movieRating=0x7f070007;
-        public static final int movieThumb=0x7f070004;
-        public static final int movieTitle=0x7f070005;
-        public static final int movieYear=0x7f070006;
-        public static final int tbSearch=0x7f070000;
-        public static final int thumbnail=0x7f070003;
+        public static final int ivThumbnail=0x7f090001;
+        public static final int list_view=0x7f090006;
+        public static final int menu_settings=0x7f09000d;
+        public static final int movieId=0x7f09000c;
+        public static final int movieRating=0x7f09000b;
+        public static final int movieThumb=0x7f090008;
+        public static final int movieTitle=0x7f090009;
+        public static final int movieYear=0x7f09000a;
+        public static final int tbSearch=0x7f090000;
+        public static final int thumbnail=0x7f090007;
+        public static final int tvCast=0x7f090005;
+        public static final int tvSypnosis=0x7f090004;
+        public static final int tvTitle=0x7f090002;
+        public static final int tvYear=0x7f090003;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int activity_search_result=0x7f030001;
-        public static final int list_view=0x7f030002;
+        public static final int activity_view_movie=0x7f030002;
+        public static final int list_view=0x7f030003;
     }
     public static final class menu {
-        public static final int activity_main=0x7f060000;
-        public static final int activity_search_result=0x7f060001;
+        public static final int activity_main=0x7f080000;
+        public static final int activity_search_result=0x7f080001;
+        public static final int activity_view_movie=0x7f080002;
     }
     public static final class string {
-        public static final int app_name=0x7f040000;
-        public static final int button_search=0x7f040005;
-        public static final int hello_world=0x7f040001;
-        public static final int menu_settings=0x7f040002;
-        public static final int movieRatingText=0x7f04000a;
-        public static final int movieThumbDesc=0x7f040008;
-        public static final int movieTitleText=0x7f040007;
-        public static final int movieYearText=0x7f040009;
-        public static final int searchText=0x7f040004;
-        public static final int title_activity_main=0x7f040003;
-        public static final int title_activity_search_result=0x7f040006;
+        public static final int app_name=0x7f060000;
+        public static final int button_search=0x7f060005;
+        public static final int hello_world=0x7f060001;
+        public static final int menu_settings=0x7f060002;
+        public static final int movieIdText=0x7f06000b;
+        public static final int movieRatingText=0x7f06000a;
+        public static final int movieThumbDesc=0x7f060008;
+        public static final int movieTitleText=0x7f060007;
+        public static final int movieYearText=0x7f060009;
+        public static final int searchText=0x7f060004;
+        public static final int title_activity_main=0x7f060003;
+        public static final int title_activity_search_result=0x7f060006;
+        public static final int title_activity_view_movie=0x7f06000c;
     }
     public static final class style {
-        public static final int AppTheme=0x7f050000;
+        public static final int AppTheme=0x7f070000;
     }
 }

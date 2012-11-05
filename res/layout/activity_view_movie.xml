@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/ivThumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:src="@drawable/ic_action_search" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/ivThumbnail"
+        android:maxLines="2"
+        android:text="Movie Title Here"
+        android:textSize="@dimen/Large" />
+
+    <TextView
+        android:id="@+id/tvYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvTitle"
+        android:layout_below="@+id/tvTitle"
+        android:paddingLeft="2dp"
+        android:text="Movie Year Here"
+        android:textColorLink="@color/Grey"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/tvSypnosis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvYear"
+        android:layout_marginTop="14dp"
+        android:maxLines="200"
+        android:paddingLeft="2dp"
+        android:paddingTop="7dp"
+        android:text="Movie Sypnosis Here"
+        android:textColorLink="@color/DarkGrey"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/tvCast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvSypnosis"
+        android:layout_marginTop="18dp"
+        android:paddingLeft="2dp"
+        android:text="Movie Cast Here" />
+
+</RelativeLayout>

@@ -1,20 +1,28 @@
 package test.rottentomatos2.classes;
 
-public class MovieDetails extends Movie
+import java.util.ArrayList;
+
+/**
+ * This class holds other detailed information regarding the Movie.
+ * @author Muhammad
+ *
+ */
+public class MovieDetails
 {
-	public String sypnosis;
-	public String [] cast;
-	
-	public MovieDetails(String Id, String Title, String Year, String Rating,
-			String Thumb_url, String Sypnosis, String[] Cast)
+
+	public String				sypnosis;
+	public ArrayList<String>	cast;
+
+	/**
+	 * The constructor for creating a MovieDetails Object.
+	 * @param Sypnosis The Synopsis of the Movie. Can sometimes be null.
+	 * @param Cast A list of Casts on the Movie. Can sometimes be null.
+	 */
+	public MovieDetails(String Sypnosis, ArrayList<String> Cast)
 	{
-		super(Id, Title, Year, Rating, Thumb_url);
 		this.sypnosis = Sypnosis;
 		this.cast = Cast;
-		
+
 	}
-	
-	
-	
-	
+
 }

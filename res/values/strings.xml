@@ -11,5 +11,7 @@
     <string name="movieThumbDesc">Movie Thumbnail Description</string>
     <string name="movieYearText">movieYearText</string>
     <string name="movieRatingText">movieRatingText</string>
+    <string name="movieIdText">movieIdText</string>
+    <string name="title_activity_view_movie">View Movie Details</string>
 
 </resources>

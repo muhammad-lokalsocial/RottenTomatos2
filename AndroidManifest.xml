@@ -27,6 +27,13 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="test.rottentomatos2" />
         </activity>
+        <activity
+            android:name=".ViewMovieActivity"
+            android:label="@string/title_activity_view_movie" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="test.rottentomatos2.SearchResultActivity" />
+        </activity>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />

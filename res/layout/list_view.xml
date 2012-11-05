@@ -58,5 +58,14 @@
         android:layout_alignParentRight="true"
         android:contentDescription="@string/movieThumbDesc"
         android:src="@drawable/ic_next" />
+    
+    <TextView
+        android:id="@+id/movieId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/movieIdText"
+        android:textColor="#666666"
+        android:textSize="8dp"
+        android:visibility="visible" />
 
 </RelativeLayout>
