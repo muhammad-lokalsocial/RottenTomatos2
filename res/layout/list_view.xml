@@ -66,6 +66,6 @@
         android:text="@string/movieIdText"
         android:textColor="#666666"
         android:textSize="8dp"
-        android:visibility="visible" />
+        android:visibility="gone" />
 
 </RelativeLayout>

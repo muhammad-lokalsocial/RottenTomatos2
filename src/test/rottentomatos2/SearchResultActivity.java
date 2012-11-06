@@ -3,6 +3,7 @@ package test.rottentomatos2;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import test.rottentomatos2.JSON.parsers.GSONParser;
 import test.rottentomatos2.JSON.parsers.JSONParser;
 import test.rottentomatos2.adapters.MovieAdapter;
 import test.rottentomatos2.classes.Movie;
@@ -30,10 +31,13 @@ public class SearchResultActivity extends ListActivity
 		Intent intent = getIntent();
 		String searchParam = intent.getStringExtra(MainActivity.EXTRA_SEARCHPARAM);
 		
-		//Download JSON data
-		JSONParser parser = new JSONParser();
-		movies = parser.getMovies(searchParam, 10);
+		//Download JSON data (METHOD 1)
+		//JSONParser parser = new JSONParser();
+		//movies = parser.getMovies(searchParam, 10);
 
+		//Download JSON data (METHOD 2) GSON
+		movies = GSONParser.getMovies(searchParam, 10);
+		
 		//Set data to ListView
 		ListView listView = (ListView) findViewById(android.R.id.list);
 		listView.setAdapter(new MovieAdapter(this,
